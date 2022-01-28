@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="viewStyle.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">logo</div>
+      <h1 class="name">
+        Registration & Login With Email Verification In MVC Style
+      </h1>
+      <ul>
+        <li class="register">Register</li>
+        <li class="login">Login</li>
+      </ul>
+    </header>
+    <section class="register-section">
+      <h2>Registration</h2>
+      <form class="register-form">
+        <input type="text" name="name" placeholder="Username" />
+        <input type="email" name="email" placeholder="Email" />
+        <input type="password" name="password" placeholder="Password" />
+        <input type="hidden" name="register" value="register" />
+        <input
+          class="register-submit"
+          type="submit"
+          name="register"
+          value="register"
+        />
+      </form>
+    </section>
+    <section class="login-section">
+      <h2>Login</h2>
+      <form class="login-form">
+        <input type="text" name="name" placeholder="Username" />
+        <input type="password" name="password" placeholder="Password" />
+        <input type="hidden" name="login" value="login" />
+        <input type="submit" class="login-submit" value="Login" />
+      </form>
+    </section>
+    <section class="message-section">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quibusdam
+      vel eaque!
+    </section>
+    <script src="/viewScript.js"></script>
+  </body>
+</html>

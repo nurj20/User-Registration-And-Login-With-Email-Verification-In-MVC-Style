@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(240, 239, 239);
+}
+header {
+  width: 100vw;
+  height: 12vh;
+  background-color: rgb(23, 87, 87);
+  box-shadow: 5px 5px 10px rgb(73, 75, 75);
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: larger;
+}
+header ul {
+  list-style: none;
+  display: flex;
+}
+header ul li {
+  text-decoration: none;
+  padding-right: 10px;
+}
+.login-section,
+.register-section,
+.message-section {
+  display: none;
+}
+.register-section,
+.login-section,
+.message-section {
+  width: 40vw;
+  margin: 10vw auto;
+  border: solid rgb(23, 87, 87) 2px;
+  border-radius: 3px;
+  padding: 16px 26px;
+  box-shadow: 5px 5px 10px rgb(73, 75, 75);
+}
+.register-section h2,
+.login-section h2 {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding: 16px 26px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+  background-color: rgb(240, 239, 239);
+}
+input[type="submit"] {
+  margin-top: 30px;
+  background-color: rgb(118, 150, 150);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.message-section {
+  display: none;
+}
+h1 {
+  line-height: 22px;
+}
